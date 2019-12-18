@@ -1,0 +1,84 @@
+7201 ; 2.1 ; Immateriella anläggningstillgångar Koncessioner, patent, licenser, varumärken, hyresrätter, goodwill och liknande rättigheter
+7202 ; 2.2 ; Immateriella anläggningstillgångar Förskott avseende immateriella anläggningstillgångar
+7214 ; 2.3 ; Materiella anläggningstillgångar Byggnader och mark
+7215 ; 2.4 ; Materiella anläggningstillgångar Maskiner, inventarier och övriga materiella anläggningstillgångar
+7216 ; 2.5 ; Materiella anläggningstillgångar Förbättringsutgifter på annans fastighet
+7217 ; 2.6 ; Materiella anläggningstillgångar Pågående nyanläggningar och förskott avseende materiella anläggningstillgångar
+7230 ; 2.7 ; Finansiella anläggningstillgångar Andelar i koncernföretag
+7231 ; 2.8 ; Finansiella anläggningstillgångar Andelar i intresseföretag och gemensamt styrda företag
+7233 ; 2.9 ; Finansiella anläggningstillgångar Ägarintressen i övriga företag och Andra långfristiga värdepappersinnehav
+7232 ; 2.10 ; Finansiella anläggningstillgångar Fordringar hos koncern-, intresse- och  gemensamt styrda företag
+7234 ; 2.11 ; Finansiella anläggningstillgångar Lån till delägare eller närstående
+7235 ; 2.12 ; Finansiella anläggningstillgångar Fordringar hos övriga företag som det finns ett ägarintresse i och Andra långfristiga fordringar
+7241 ; 2.13 ; Varulager Råvaror och förnödenheter
+7242 ; 2.14 ; Varulager Varor under tillverkning
+7243 ; 2.15 ; Varulager Färdiga varor och handelsvaror
+7244 ; 2.16 ; Varulager Övriga lagertillgångar
+7245 ; 2.17 ; Varulager Pågående arbeten för annans räkning
+7246 ; 2.18 ; Varulager Förskott till leverantörer
+7251 ; 2.19 ; Kortfristiga fordringar Kundfordringar
+7252 ; 2.20 ; Kortfristiga fordringar Fordringar hos koncern-, intresse- och gemensamt styrda företag
+7261 ; 2.21 ; Kortfristiga fordringar Fordringar hos övriga företag som det finns ett ägarintresse i och Övriga fordringar
+7262 ; 2.22 ; Kortfristiga fordringar Upparbetad men ej fakturerad intäkt
+7263 ; 2.23 ; Kortfristiga fordringar Förutbetalda kostnader och upplupna intäkter
+7270 ; 2.24 ; Kortfristiga placeringar Andelar i koncernföretag
+7271 ; 2.25 ; Kortfristiga placeringar Övriga kortfristiga placeringar
+7281 ; 2.26 ; Kassa och bank Kassa, bank och redovisningsmedel
+7301 ; 2.27 ; Eget kapital Bundet eget kapital
+7302 ; 2.28 ; Eget kapital Fritt eget kapital
+7321 ; 2.29 ; Obeskattade reserver Periodiseringsfonder
+7322 ; 2.30 ; Obeskattade reserver Ackumulerade överavskrivningar
+7323 ; 2.31 ; Obeskattade reserver Övriga obeskattade reserver
+7331 ; 2.32 ; Avsättningar Avsättningar för pensioner och liknande förpliktelser enligt lag (1967:531)...
+7332 ; 2.33 ; Avsättningar Övriga avsättningar för pensioner och liknande förpliktelser
+7333 ; 2.34 ; Avsättningar Övriga avsättningar
+7350 ; 2.35 ; Långfristiga skulder Obligationslån
+7351 ; 2.36 ; Långfristiga skulder Checkräkningskredit
+7352 ; 2.37 ; Långfristiga skulder Övriga skulder till kreditinstitut
+7353 ; 2.38 ; Långfristiga skulder Skulder till koncern-, intresse- och gemensamt styrda företag
+7354 ; 2.39 ; Långfristiga skulder Skulder till övriga företag som det finns ett ägarintresse i och Övriga skulder
+7360 ; 2.40 ; Kortfristiga skulder Checkräkningskredit
+7361 ; 2.41 ; Kortfristiga skulder Övriga skulder till kreditinstitut
+7362 ; 2.42 ; Kortfristiga skulder Förskott från kunder
+7363 ; 2.43 ; Kortfristiga skulder Pågående arbeten för annans räkning
+7364 ; 2.44 ; Kortfristiga skulder Fakturerad men ej upparbetad intäkt
+7365 ; 2.45 ; Kortfristiga skulder Leverantörsskulder
+7366 ; 2.46 ; Kortfristiga skulder Växelskulder
+7367 ; 2.47 ; Kortfristiga skulder Skulder till koncern-, intresse- och gemensamt styrda företag
+7369 ; 2.48 ; Kortfristiga skulder Skulder till övriga företag som det finns ett ägarintresse i och Övriga skulder
+7368 ; 2.49 ; Kortfristiga skulder Skattesskulder
+7370 ; 2.50 ; Kortfristiga skulder Upplupna kostnader och förutbetalda intäkter
+7410 ; 3.1 ; Nettoomsättning
+7411 ; 3.2 ; Förändring av lager av produkter i arbete, färdiga varor och pågående arbete för annans räkning. +
+7510 ; 3.2 ; Förändring av lager av produkter i arbete, färdiga varor och pågående arbete för annans räkning. -
+7412 ; 3.3 ; Aktiverat arbete för egen räkning
+7413 ; 3.4 ; Övriga rörelseintäkter
+7511 ; 3.5 ; Råvaror och förnödenheter
+7512 ; 3.6 ; Handelsvaror
+7513 ; 3.7 ; Övriga externa kostnader
+7514 ; 3.8 ; Personalkostnader
+7515 ; 3.9 ; Av- och nedskrivningar av materiella och immateriella anläggningstillgångar
+7516 ; 3.10 ; Nedskrivningar av omsättningstillgångar utöver normala nedskrivningar
+7517 ; 3.11 ; Övriga rörelsekostnader
+7414 ; 3.12 ; Resultat från andelar i koncernföretag +
+7518 ; 3.12 ; Resultat från andelar i koncernföretag -
+7415 ; 3.13 ; Resultat från andelar i intresseföretag och gemensamt styrda företag +
+7519 ; 3.13 ; Resultat från andelar i intresseföretag och gemensamt styrda företag -
+7423 ; 3.14 ; Resultat från övriga företag som det finns ett ägarintresse i +
+7530 ; 3.14 ; Resultat från övriga företag som det finns ett ägarintresse i -
+7416 ; 3.15 ; Resultat från övriga finansiella anläggningstillgångar +
+7520 ; 3.15 ; Resultat från övriga finansiella anläggningstillgångar -
+7417 ; 3.16 ; Övriga ränteintäkter och liknande resultatposter
+7521 ; 3.17 ; Nedskrivning av finansiella anläggningstillgångar och kortfristiga placeringar
+7522 ; 3.18 ; Räntekostnader och liknande resultatposter
+7524 ; 3.19 ; Lämnade koncernbidrag
+7419 ; 3.20 ; Mottagna koncernbidrag
+7420 ; 3.21 ; Återföring av periodiseringsfond
+7525 ; 3.22 ; Avsättning till periodiseringsfond
+7421 ; 3.23 ; Förändring av överavskrivningar +
+7526 ; 3.23 ; Förändring av överavskrivningar -
+7422 ; 3.24 ; Övriga bokslutsdispositioner +
+7527 ; 3.24 ; Övriga bokslutsdispositioner -
+7528 ; 3.25 ; Skatt på årets resultat
+7450 ; 3.26 ; Årets resultat, vinst (flyttas till p. 4.1)
+7550 ; 3.27 ; Årets resultat, förlust (flyttas till p. 4.2)
