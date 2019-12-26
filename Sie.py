@@ -15,14 +15,15 @@ import main
 # PC 8 encoding https://en.wikipedia.org/wiki/Code_page_437
 
 class SieProperties:
-    _program   = None
-    _org_num   = None
-    _company   = None
-    _format    = None
-    _sie_type  = None
-    _kp_type   = None
-    _generated = None
-    _flag      = None
+    def __init__(self):
+        self._program   = None
+        self._org_num   = None
+        self._company   = None
+        self._format    = None
+        self._sie_type  = None
+        self._kp_type   = None
+        self._generated = None
+        self._flag      = None
 
     """ Program 'Bokio' 1.0 """
     def set_program(self, program):
@@ -90,6 +91,28 @@ class SieProperties:
     flag      = property(get_flag,      set_flag)
 
 class Sie:
+    def __init__(self, sie_file, ink2r_file):
+        self.rars       = {}
+        self.baskonto   = {}
+        self.ibs        = {}
+        self.ubs        = {}
+        self.res        = {}
+        self.sru_table  = {}
+        self.sie_file   = sie_file
+        self.ink2r_file = ink2r_file
+        self.properties = SieProperties()
+        self.ink2r      = Ink2r(ink2r_file)
+        self._parse_sie(self.sie_file)
+
+        # Determine log file name (based on input sie file) and setup logger
+        head, tail = ntpath.split(sie_file)
+        file_name = tail or ntpath.basename(head)
+        self.log_file_name = '{}-ink2r.txt'.format(file_name)
+        with open(self.log_file_name, "w") as fh:
+            fh.close()
+
+        self._setup_logger(self.log_file_name)
+
     """ Handler for ignored sie fields """
     def not_implemented(self, line):
         pass
@@ -207,28 +230,6 @@ class Sie:
         # Handler for non handled posts
         'OTHERS'    : not_implemented,
     }
-
-    def __init__(self, sie_file, ink2r_file):
-        self.rars       = {}
-        self.baskonto   = {}
-        self.ibs        = {}
-        self.ubs        = {}
-        self.res        = {}
-        self.sru_table  = {}
-        self.sie_file   = sie_file
-        self.ink2r_file = ink2r_file
-        self.properties = SieProperties()
-        self.ink2r      = Ink2r(ink2r_file)
-        self._parse_sie(self.sie_file)
-
-        # Determine log file name (based on input sie file) and setup logger
-        head, tail = ntpath.split(sie_file)
-        file_name = tail or ntpath.basename(head)
-        self.log_file_name = '{}-ink2r.txt'.format(file_name)
-        with open(self.log_file_name, "w") as fh:
-            fh.close()
-
-        self._setup_logger(self.log_file_name)
 
     """ Setup a basic logger to log output data to file system """
     def _setup_logger(self, log_file_name):
