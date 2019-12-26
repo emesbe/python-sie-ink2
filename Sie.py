@@ -14,7 +14,7 @@ import main
 # http://www.sie.se/?page_id=12
 # PC 8 encoding https://en.wikipedia.org/wiki/Code_page_437
 
-class SieProperties:
+class SieProperties(object):
     def __init__(self):
         self._program   = None
         self._org_num   = None
@@ -90,7 +90,7 @@ class SieProperties:
     generated = property(get_generated, set_generated)
     flag      = property(get_flag,      set_flag)
 
-class Sie:
+class Sie(object):
     def __init__(self, sie_file, ink2r_file):
         self.rars       = {}
         self.baskonto   = {}
